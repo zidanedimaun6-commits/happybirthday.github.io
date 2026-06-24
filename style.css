@@ -41,3 +41,44 @@ p {
         transform: translateY(-10px);
     }
 }
+button {
+    background: #ff4081;
+    color: white;
+    border: none;
+    padding: 12px 25px;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 15px;
+}
+
+button:hover {
+    transform: scale(1.05);
+}
+
+#birthdayMessage {
+    margin-top: 20px;
+    padding: 15px;
+    background: #ffe6f0;
+    border-radius: 10px;
+}
+button {
+    display: block;
+    margin: 15px auto;
+    background: #ff4081;
+    color: white;
+    border: none;
+    padding: 12px 25px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+#birthdayMessage {
+    display: none;
+    margin: 20px auto;
+    max-width: 300px;
+    text-align: center;
+    padding: 15px;
+    background: #ffe6f0;
+    border-radius: 10px;
+}
